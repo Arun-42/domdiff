@@ -18,7 +18,10 @@ Example: the event could be the clicking of a sidebar button, and thus the diff 
 3. the links include: heading, sub heading 1, sub heading 2, conclusion
 
 Do not mention changes to specific tags, or classes or anything to indicate html. Your answer should be equivalent to someone using the website with just the GUI. Interpret the visual changes to be best of your ability from html, and describe it as such. Do not mention super specific details. Be general. 
-NOTE: focus only on the lines that are modifyed. Modifications are indicated using standard diff notation: (-) for delete, (+) for insert
+NOTE: Modifications are indicated using this notation: (del) for delete, (ins) for insert as the prefix a line.
+IMPORTANT: FOCUS ONLY ON THE LINES THAT ARE MODIFIED - INSERTED OR DELETED OR REPLACED
+
+Talk only about the changes, DO NOT SPECULATE.
     """,
 ]
 
