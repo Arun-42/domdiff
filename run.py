@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup as bs
-from listhtml import h0, diffs, prompts, prompt2
+from listhtml import  prompts, prompt2
 from subprocess import Popen, PIPE
 
 beautify = lambda s: bs(s, 'html.parser').prettify()
@@ -84,9 +84,9 @@ def main():
 
 
         payload['messages'].extend([
-            {'role': 'assistant', 'content': content}, 
+            {'role': 'assistant', 'content': content},
             {'role': 'user', 'content': prompt2}])
-        
+
         # print('payload', payload)
 
         response = requests.post(url, json=payload, headers=headers)
